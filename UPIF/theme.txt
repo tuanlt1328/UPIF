@@ -1,0 +1,49 @@
+
+title-text: ""
+desktop-image: "background.png"
+desktop-color: "#000000"
+terminal-font: "Terminus Regular 14"
+terminal-box: "terminal_box_*.png"
+#terminal-left: "0"
+#terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
+title-font: "SegoeUI-20.pf2"
+
++ boot_menu {
+  left = 10%
+  top = 45%
+  width = 80%
+  height = 30%
+  align = "center"
+  item_height = 50
+  item_padding = 10
+
+  item_font = "SegoeUI-20.pf2"
+  selected_item_font = "SegoeUI-20.pf2"
+
+  item_color = "white"
+  selected_item_color = "white"
+
+  item_pixmap_style = "none"
+
+  selected_item_pixmap_style = "upif_*.png"
+
+  icon_width = 48
+  icon_height = 48
+  icon_spacing = 10
+  item_icon = true
+}
+
++ label {
+  top = 82%
+  left = 32%
+  width = 36%
+  align = "center"
+  id = "__timeout__"
+  text = "Selected boot option will be executed in %d seconds"
+  color = "#cccccc"
+  font = "SegoeUI-12.pf2"
+}
